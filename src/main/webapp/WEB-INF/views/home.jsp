@@ -3,58 +3,36 @@
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Home</title>
-	<c:import url="./temp/boot_head.jsp"></c:import> 
-	<script type="text/javascript">
-	$(document).ready(function(){
-		$("#header").load("./temp/boot_nav.jsp");
-		$("#footer").load("./temp/boot_footer.jsp");
-	});
-</script>
-	
-	
+	<style>
+		html,body{
+			height:100%;
+			margin:0; 
+		}
+		.wrapper{
+		min-height:100%;
+		margin-top:85px;
+		margin-bottom:-290px;
+		}
+		.push{
+		height:290px;		
+		}
+	</style>	
 	
 </head>
 <body>
-		
-<header id="header"></header>
-<main>
+<c:import url="./temp/boot_nav.jsp"></c:import>
 
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-		<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-		<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
-	<h1>skfjklkfwq</h1>
+<div class="wrapper">		
 
 
-</main>
-<footer id="footer"></footer>
+<h1>Contents</h1>
 
 
 
-
-
-
+<div class="push"></div>
+</div>
+ <c:import url="./temp/boot_footer.jsp"></c:import>
 
 </body>
 </html>
